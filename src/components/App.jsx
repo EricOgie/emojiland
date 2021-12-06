@@ -18,12 +18,10 @@ function App() {
   return (
     <div>
       <h1>
-        <span>emojipedia</span>
+        <span>emojiliberary</span>
       </h1>
 
-      <dl className="dictionary">
-        {Emojilib.map(createCard)}
-      </dl>
+      <dl className="dictionary">{Emojilib.map(createCard)}</dl>
     </div>
   );
 }
